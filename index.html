@@ -1,0 +1,39 @@
+<!-- http://www.sitepoint.com/ajax-jquery/ -->
+<html> 
+<head> 
+  <title>Portable Equipment</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script type="text/JavaScript" src="jquery-1.10.2.min.js"></script> 
+  <script type="text/JavaScript"> 
+  
+  $( document ).ready(function() {
+	setInterval('show_data()', 2500);
+	show_data();
+	});
+  function show_data()
+	{
+	$('#laptop').load('pe.php?1').fadeIn();
+	$('#mcable').load('pe.php?2').fadeIn();
+	$('#i4cable').load('pe.php?3').fadeIn();
+	$('#i5cable').load('pe.php?4').fadeIn();
+	$('#vgacable').load('pe.php?5').fadeIn();
+	$('#mbcharger').load('pe.php?6').fadeIn();
+	}
+  </script> 
+
+</head> 
+<body>
+<ul>
+	<li class="content-box">Equipment for Loan</li>
+	<div id="laptop"></div>
+	<div id="mcable"></div> 
+	<div id="i4cable"></div>
+	<div id="i5cable"></div>
+	<div id="vgacable"></div>
+	<div id="mbcharger"></div>
+</ul>
+
+
+
+</body> 
+</html>

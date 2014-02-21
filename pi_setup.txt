@@ -1,0 +1,19 @@
+# from: http://www.niteoweb.com/blog/raspberry-pi-boot-to-browser
+$ sudo nano /etc/lightdm/lightdm.conf
+# add the following lines to the [SeatDefaults] section
+
+# don't sleep the screen
+xserver-command=X -s 0 dpms
+
+#Hide cursor on inactivity
+$ sudo apt-get install unclutter
+
+#Configure LXDE to start the Midori browser on login
+$ sudo nano /etc/xdg/lxsession/LXDE/autostart 
+
+# comment everything and add the following lines
+
+@xset s off
+@xset -dpms
+@xset s noblank
+@midori -e Fullscreen -a http://alpha.library.brocku.ca/tribaric/ape
