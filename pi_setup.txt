@@ -1,3 +1,7 @@
+#enable boot to X
+#enable SSH
+#change default passwd
+
 # from: http://www.niteoweb.com/blog/raspberry-pi-boot-to-browser
 $ sudo nano /etc/lightdm/lightdm.conf
 # add the following lines to the [SeatDefaults] section
@@ -16,4 +20,4 @@ $ sudo nano /etc/xdg/lxsession/LXDE/autostart
 @xset s off
 @xset -dpms
 @xset s noblank
-@midori -e Fullscreen -a http://alpha.library.brocku.ca/tribaric/ape
+@midori -e Fullscreen -a http://www.library.brocku.ca/ape

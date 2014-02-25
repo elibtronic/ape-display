@@ -11,4 +11,11 @@ Meant to be used to display the availability of some high turn over items at the
 - PHP access
 
 ###Pics###
-![ape-display all in](images/ape_demo.jpg)
+
+![ape-display all in](images/ape_demo.jpg)  
+
+When all items are available  
+
+![ape-display missing](images/ape_demo_na.jpg)  
+
+When something is checked out, will display next expected due time  

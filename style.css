@@ -2,11 +2,12 @@
 body{
 
 	font-family: "Trebuchet MS", Helvetica, sans-serif;
-	font-size: 2.5em;
+	font-size: 3.0em;
 	font-style: bold;
 	color:black;
-	/* background-color:grey; */
-	text-shadow: 2px 2px #BBBBBB;
+	background-color: #FFF;
+	text-shadow: 3px 3px #AAAAAA;
+	padding-right: 25px;
 }
 
 ul{
@@ -15,19 +16,31 @@ ul{
 
 }
 
+
 .content-box{
 
 	border-radius: 20px;
-	width: 90%;
+	width: 98%;
 	height: 10%;
-	margin-top: 2%;
+	/*margin-top: 2%;*/
+	margin-bottom: 2%;
 	line-height: 2em;
 	text-align: center;
 	margin-left: auto;
 	margin-right: auto;
-	border-style: solid;
+	/*border-style: solid;*/
+	border-color: #222222;
 	min-width: 450px;
 
+
+}
+
+.header-box{
+
+	margin-left: auto;
+	margin-right: auto;
+	font-size:1.4em;
+	
 
 }
 
@@ -35,17 +48,18 @@ ul{
 .content-box-good{
 
 	border-radius: 20px;
-	width: 90%;
+	width: 98%;
 	height: 10%;
-	margin-top: 2%;
+	margin-top: 3%;
 
 	line-height: 2em;
 	text-align: center;
 	margin-left: auto;
 	margin-right: auto;
 	
+	text-shadow: 2px 2px #AAAAAA;
 	background-color: #00CC00;
-	border-style: solid;
+	/*border-style: solid;*/
 	min-width: 450px;
 
 
@@ -53,21 +67,28 @@ ul{
 
 .content-box-bad{
 
+	font-size: 0.8em;
 	border-radius: 20px;
-	width: 90%;
+	width: 98%;
 	height: 10%;
-	margin-top: 2%;
+	margin-top: 3%;
 
 	line-height: 2em;
 	text-align: center;
 	margin-left: auto;
 	margin-right: auto;
 	
-	/*background-color: #CC3300;*/
 	text-shadow: 2px 2px #555555;
 	background-color: #555555;
-	border-style: solid;
+	/*border-style: solid; */
 	min-width: 450px;
+}
+
+.due-time{
+
+	color:#D11;
+	text-shadow: 2px 2px #666666;
+
 }
 
 
